@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #000;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f2f2f2;
+    color: #000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.support-categories {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.support-categories h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.support-categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.support-categories ul li {
+    margin-right: 20px;
+}
+
+.support-categories ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.faq {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.faq h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.faq ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.faq li {
+    margin-bottom: 40px;
+}
+
+.faq h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
